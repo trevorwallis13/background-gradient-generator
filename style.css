@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'futura', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffaaff, #aaffaa);
+    color: rgba(00, 00, 00, .7);
+    text-align: center;
+}
+
+h1, h2, h3, input, hr {
+    margin-bottom: 1em;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+h1 {
+    font-size: clamp(1.2rem, 5vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+input {
+    width: 5rem;
+    height: 2rem;
+    padding: 0;
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+    background-color:rgba(00, 00, 00, .4);
+    color: #fafafa;
+    border: none;
+    border-radius: 3px;
+}
